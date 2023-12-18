@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--Link a Css -->
+    <link rel="stylesheet" href="assets/styles/style2.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2</title>
+</head>
+
+<body>
+
+    <!-- Contenedor Stickers-->
+    <main id="container">
+
+        <!-- Contenedor sticker 1 -->
+        <div class="sticker">
+            <img src="assets/img/Bear.png" alt="sticker1">
+            <!-- Campo de entrada tipo número con valor mínimo 0 para sticker 1-->
+            <input type="number" class="quantity" id="quantity1" min="0">
+        </div>
+
+        <!-- Contenedor sticker 2 -->
+        <div class="sticker">
+            <img src="assets/img/Birdy.png" alt="sticker2">
+            <!-- Campo de entrada tipo número con valor mínimo 0 para sticker 2-->
+            <input type="number" class="quantity" id="quantity2" min="0"> <!--Botón de verificación-->
+        </div>
+
+        <!-- Contenedor Sticker 3 -->
+        <div class="sticker">
+            <!-- Campo de entrada tipo número con valor mínimo 0 para sticker 3-->
+            <img src="assets/img/Bunny.png" alt="sticker3">
+            <input type="number" class="quantity" id="quantity3" min="0"> <!--Botón de verificación-->
+        </div>
+
+    </main>
+
+    <!-- Botón de verificación -->
+    <button id="verify" onclick="OnclickEvent()">Verificar</button>
+
+    <!-- Texto con resultado obtenido -->
+    <p id="result"></p>
+
+    <!--Link a Js -->
+    <script src="assets/scripts/script2.js"></script>
+
+</body>
+
+</html>

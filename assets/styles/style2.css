@@ -1,0 +1,31 @@
+*{
+    margin-top:10px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.sticker {
+    margin: 0 10px;
+    text-align: center;
+}
+.sticker img {
+    max-width: 150px;
+    display: block;
+}
+.sticker input {
+    width: 100px;
+}
+
+#verify{
+    width: 100px;
+    height: 30px;
+    background-color: lightcoral;
+    color: white;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+}
